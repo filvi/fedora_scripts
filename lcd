@@ -1,0 +1,11 @@
+#!/bin/bash
+
+case $1 in 
+	ai)
+		exec google-chrome http://localhost/Canalescuola/new/admin_iscrizioni
+		;;
+	php)
+		exec google-chrome http://localhost/phpmyadmin
+		;;
+
+esac

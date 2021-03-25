@@ -1,0 +1,3 @@
+#/usr/bin/zsh
+
+exec google-chrome https://gmail.com &. 2>&1 &.
